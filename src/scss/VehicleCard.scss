@@ -1,0 +1,17 @@
+.Vehicle {
+    position: relative;
+    &__Icons {
+        position: absolute;
+        right: 0;
+        top: 10;
+        display: flex;
+        svg {
+            margin-right: 10px;
+        }
+    }
+    > span {
+        >div {
+            position: relative;
+        }
+    }
+}
